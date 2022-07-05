@@ -8,13 +8,34 @@ h1{
 .orange-color{
    color: orange;
 }
-section{
+.experence-area{
+   width: 1100px ;
+   margin: 0 auto;
+}
+.flexible-container{
    display: flex;
+   justify-content: space-between;
    margin-bottom: 100px;
+   
+}
+.half-1{
+   width: 500px;
+   height: 400px;
+   box-shadow: 10px 10px 10px 10px gray;
+   border-left: 5px solid purple;
+   padding-left: 20px;
+}
+.half-2{
+   width: 500px;
+   height: 400px;
+   box-shadow: 10px 10px 10px 10px gray;
+   border-left: 5px solid blue;
+   padding-left: 20px;
 }
 .half-width{
    width: 50%;
    padding-left: 3%;
+   
 }
 .half-width img{
    width: 80%;
